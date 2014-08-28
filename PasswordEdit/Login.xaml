@@ -1,0 +1,13 @@
+﻿<Window x:Class="PasswordEdit.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="300" Width="300">
+    <Grid>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="138,124,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="TBUser" HorizontalAlignment="Left" Height="23" Margin="116,44,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TBPassword" HorizontalAlignment="Left" Height="23" Margin="116,86,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="BtEdit" Visibility="Collapsed" Content="Edit Password" HorizontalAlignment="Left" Margin="158,192,0,0" VerticalAlignment="Top" Width="113" Click="BtEdit_Click"/>
+        <TextBox x:Name="TbEdit" Visibility="Collapsed" HorizontalAlignment="Left" Height="23" Margin="10,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
